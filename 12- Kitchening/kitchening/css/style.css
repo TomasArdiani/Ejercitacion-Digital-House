@@ -1,0 +1,125 @@
+/*Header*/
+
+.container{
+    overflow: hidden;
+    position: relative;
+}
+.main-header{
+    position: absolute;
+    width: 100%;
+    z-index: 20;
+}
+header img{
+    position: relative;
+    border-radius: 50%;
+    left: 25%;
+}
+.main-nav{
+    position: relative;
+    top: 50%;
+    background-color: grey;
+}
+nav ul{
+    border: solid 1px black;
+}
+nav ul li{
+    border-top: solid 1px black;
+    list-style: none;
+    text-align: center;
+    position: relative;
+    right:9%;
+    text-transform: uppercase;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+/*Banner*/
+
+@media(min-width:460px){
+.banner{
+     display: none}}
+
+
+
+@media(min-width:460px){
+    .banner{
+ display: block}}
+/*Productos*/
+.vip-products{
+    position: relative;
+    overflow: hidden;
+  padding-top: 20px;
+  width: 100%;
+}
+.photo-container{
+    position: relative;
+    top: 20%;
+}
+
+
+
+
+
+
+
+/*body{
+    width: 100vw;
+    height: 100vh;
+    margin: 2%
+}
+
+header img{
+    border-radius: 100px;
+    position: relative;
+    left: 28%;
+}
+
+header ul{
+    padding: 0%;
+    margin: 0%;
+}
+
+header ul li{
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+
+.banner img{
+    width: 100%;
+}
+
+.vip-products photo{
+    width: 100%;
+}
+
+.special{
+    width: 15%;
+    height: 8vh;
+}
+
+.banner img{
+    display:none;
+}
+
+@media (min-width:768px){
+    .banner img{
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+  .special {
+    position: absolute;
+    right: 20px;
+    width: 80px;
+}

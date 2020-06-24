@@ -1,0 +1,145 @@
+/*Gral*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 1140px;
+    background-color: rgba(0, 152, 247, 0.164)
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+/*INDEX*/
+        /*Header*/
+        header{
+            position: relative;
+            overflow: hidden;
+            background-color: orangered;
+            width: 1140px;
+        }
+        .header-logo{
+            padding: 10px;
+            position: relative;
+            float: left;
+        }
+        .sec-izquierda{
+            margin: 20px 0px;
+        }
+
+        .h1-header{
+            padding-top: 8px;
+            float: left;
+            padding-left: 20px;
+            text-decoration: none;
+            color: white;
+            font-weight: 200;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        .header-derecha{
+            padding-left: 950px;
+        }
+        .vermas{
+            position: relative;
+            left: 0%;
+            border-radius: 0%;
+            background-color: orangered;
+        }
+
+        /*Main*/
+            /*Izquierda*/
+                button{
+                    background-color: orangered;
+                    color: white;
+                    border: thin;
+                    padding: 10px;
+                }
+                .sec-izquierda{
+                    background-color: white;
+                    width: 800px;
+                    border: solid white 1px;
+                    float: left;
+                }
+                .art-izquierda{
+                    width: 380px;
+                    float: left;
+                    padding: 10px;
+                }
+            /*Derecha*/
+            .sec-tutoriales{
+                float: left;
+                width: 320px;
+                padding-left: 15px;
+            }
+            h2{
+                background-color: white;
+                border: white 1px solid;
+            }
+            .tutoriales{
+                background-color: white;
+                margin-top: 5px;
+
+            }
+            .texto-tutorial{
+                float: right;
+                font-size: 12px;
+            }
+            .img-tutorial{
+                padding: 5px 0px 5px 5px;
+            }
+
+
+            .sec-publicidad{
+                margin-top: 20px;
+                float: left;
+                width: 320px;
+                margin-left: 15px;
+            }
+            .h2-derecha{
+                padding: 10px;
+            }
+            .publicidad{
+                background-color: white;
+                margin-top: 5px;
+            }
+            .img-publicidad{
+            position: relative;
+            padding: 5px;
+            }
+
+/*LOGIN*/
+.h3-login{
+    text-align: center;
+}
+.login{
+    position: relative;
+    left: 40%;
+    text-align: left;
+    padding-top:15px;
+}
+
+.recordarme{
+    position: relative;
+    left: 55%;
+}
+button{
+    position: relative;
+    left: 40%;
+    background-color: blue;
+    border-radius: 13%;
+    text-align: center;
+
+}
+
+
+/*REGISTRO*/
+h4{
+    margin: 2px;
+}
+

@@ -1,0 +1,12 @@
+//Consigna:
+// 1- Crear un Array con tres objetos literales (tareas con título y estado)
+// 2- Crear una Función que muestre el título y estado de cada tarea
+// 3- Pasar Obj. literal --> JSON
+// 4- Mostrar por consola el tipo de dato.
+// 5- Pasar de JSON a Objeto Literal
+// 6- Crear en la carpeta actual un archivo llamado tareas.json
+// 7 - En tareas.json escribo miarchivo json que represente las tareas.
+// 8- Crear un archivo tareas.js y crear allí la función leer()
+// 9- La función leer() debe leer el archivo tareas.json y devolver un objeto literal.
+// 10- Modularizar y Exportar la función leer
+// 11- En app.js hacer uso del módulo propio tareas.js para poder mostrar las tareas del archivo JSON.

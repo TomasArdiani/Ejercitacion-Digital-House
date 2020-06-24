@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="css/style.css">
+
+           
+            <body>
+                <header>
+                    <article class="header-logo">
+                        <img src="img/logo.png" alt="Logo" width= 80px></article>
+     
+                        <article class="header-menu">
+                             <h1 class="h1-header">SMARTPHONES</h1>
+                             <h1 class="h1-header">TABLETS</h1>
+                             <h1 class="h1-header">COMPUTADORAS</h1>
+                         </article>
+                         <article class="header-derecha">
+                             <h1 class="h1-header"><a href="login.html">LOGIN</a></h1>
+                             <h1 class="h1-header"><a href="registro.html">REGISTRO</a></h1>
+                         </article>
+                </header>
+
+                <main>
+                    <h3 class="h3-login">REGISTRATE</h3>
+                    <form name="ejemplo1" action="16-html5-email-input.php" method="POST">
+                        <article class="login">
+                            <Label for="nombre">Nombre</Label><br>
+                            <input type="text" name="nombre" required placeholder=" Ingresá tu nombre" size="40">
+                        </article>
+                        <article class="login">
+                            <Label for="email">Email</Label><br>
+                            <input type="email" name="email" required placeholder=" Ingresá tu email" size="40">
+                        </article>
+                        <article class="login">
+                            <Label for="pass">Contraseña</Label><br>
+                            <input type="password" name="password" required placeholder=" password" required size="40">
+                        </article>
+                        <article class="login">
+                            <label for="pais"><h4>Pais de nacimiento</h4><br></label>
+                            <select name="pais" id="" style='width:150px; height:20px'>
+                                <option value="CL">Chile</option>
+                                <option value="AR">Argentina</option>
+                                <option value="BR">Brasil</option>
+                                <option value="UR">Uruguay</option>
+                                <option value="PR">Perú</option>
+                            </select>
+
+                        </article>
+
+                        <article class="login">
+                            <label for=""><h4>Género</h4></label><br>
+                            <input type="radio" name="sexo" id="hombre">
+                            <label for="hombre">Hombre</label>
+                    
+                            <input type="radio" name="sexo" id="mujer">
+                            <label for="mujer">Mujer</label>
+                    
+                            <input type="radio" name="sexo" id="ninguno">
+                            <label for="ninguno">Prefiero no decirlo</label>
+                        </article>
+                        
+                        <article class="login">
+                            <label for=""><h4>Hobbies</h4></label><br>
+                            <input type="checkbox" name="hobbies" value="Guitarra">Guitarra
+                            <input type="checkbox" name="hobbies" value="Futbol">Fútbol
+                            <input type="checkbox" name="hobbies" value="Tenis">Tenis
+                            <input type="checkbox" name="hobbies" value="Programacion">Programación
+                        </article>
+
+                        <article class="login">
+                            <label><h4>Dejános tus comentarios</h4></label>
+                            <textarea name="comentario" id="" cols="30" rows="5"> </textarea><br> 
+                            <input type="checkbox" name="terminos" value="terminos">Acepto los términos y condiciones.
+                        </article>
+
+
+                        <button type="submit"   value="registrarme" style='width:100px; height:30px'>Registrarme</button>
+                        <button type="reset"   value="cancelar" style='width:100px; height:30px'>Cancelar</button>
+
+
+                        
+                     </form>
+
+                </main>
+            </body>
+    </head>
+</html>

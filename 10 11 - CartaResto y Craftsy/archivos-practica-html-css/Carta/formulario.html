@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style2.css">
+    </head>
+
+    <body>
+        <br>
+        <form action="validar.php" method="POST"> 
+        <p><h3><label>¿De donde sos?</label></h3></p>
+
+        <select name="Continente" id="">
+
+            <option value="1"> América </option>
+            <option value="2"> Europa </option>
+            <option value="3"> Asia </option>
+            <option value="4"> África</option>
+            <option value="5"> Oceanía </option>
+
+        </select>
+
+        <p><h3><label>¿Qué te pareció la iluminación del ambiente?</label></h3></p>
+        <input type="checkbox" name="iluminación" value="muyAcorde">Muy Acorde<br>
+        <input type="checkbox" name="iluminación" value="buena, pero podría mejorar">Buena, pero podría mejorar<br>
+        <input type="checkbox" name="iluminación" value="mala">Mala<br>
+
+        <p><h3><label>¿Qué tipo de plato fue el que más te gustó?</label></h3></p>
+        <input type="checkbox" name="plato" value="entrada">Entrada<br>
+        <input type="checkbox" name="plato" value="platoPrincipal">Plato Principal<br>
+        <input type="checkbox" name="plato" value="Postre">Postre<br>
+        <input type="checkbox" name="plato" value="Otros">Otros<br>
+
+        <p><h3><label>¿Recomendarías el lugar?</label></h3></p>
+        <input type="radio" name="recomendarias" value="Si">Si
+        <input type="radio" name="recomendarias" value="No">No
+
+        <p><h3><label>¿Por qué?</label></h3></p>
+        <textarea name="comentario" id="" cols="50" rows="8"> </textarea> 
+
+
+
+
+        <p><h3><label>Dejanos tus datos y nos pondremos en contacto con vos</label></h3></p>
+        <p><label for="nombre"> Nombre</label>
+        <input type="text" required id="nombre" name="nombre"></p>
+
+        <p><label for="email"> Email</label>
+        <input type="text" required id="email" name="email"></p>
+
+        <button type="submit" value="enviar" class="enviar" > Enviar </button>
+        <button type="reset" value="reset" class="reset"> Resetear</button>
+
+        </form> 
+        <br>
+
+
+
+        <a href="C:\Users\tomia\Desktop\Programacion\VSC\23-4PracticaHTMLCSS\archivos-practica-html-css\Carta\cartas.html">Volver a la carta </a>
+
+
+
+    </body>
+</html>

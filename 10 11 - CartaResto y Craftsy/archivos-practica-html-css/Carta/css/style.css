@@ -1,0 +1,63 @@
+header{
+    border-bottom: 1px solid black;
+    width: 960px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+h3{
+    font-size: 40px;
+}
+h5{
+    font-size: 20px;
+}
+nav {
+    width: 250px;  /* Si le pongo 300, me manda para abajo el resto*/
+    float: left;
+    padding: 15px;
+    margin-left: 50px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+section{
+    padding: 15px;
+    width: 610px;
+    float: right;
+    border-left: 1px solid black;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    width: 960px;
+
+
+}
+main{
+    padding: 15px;
+    overflow: hidden;
+}
+img{
+    float: right;
+}
+
+footer{
+    padding: 20px;
+    background-color: rgb(233, 230, 230);
+    overflow: hidden;
+
+}
+.pie{
+    float: right;
+    padding-top: 0px;
+
+}
+.logo{
+    float:left;
+}
+li{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+/* me queda un hueco chico a la derecha de la pagina que solo lo esta llenando el borde inferior de header*/

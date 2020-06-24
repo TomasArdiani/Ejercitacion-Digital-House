@@ -1,0 +1,11 @@
+{
+  "name": "carpeta_eje",
+  "version": "1.0.0",
+  "description": "ejercicio de movies",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
